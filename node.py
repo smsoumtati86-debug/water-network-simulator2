@@ -1,4 +1,4 @@
-cclass Node:
+class Node:
     def __init__(self, node_id, elevation=0.0, demand=0.0):
         self.node_id = node_id
         self.elevation = elevation
